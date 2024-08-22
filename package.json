@@ -1,6 +1,6 @@
 {
-  "name": "design-tools",
-  "version": "0.0.0",
+  "name": "@mainwaring/design-tools",
+  "version": "2024.1.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
