@@ -1,16 +1,16 @@
 export interface PaletteColor {
-    name: String
-    hex: String
+    name: String;
+    hex: String;
 }
 
 export interface Palette {
-    name: String
-    slug: String
-    colors: PaletteColor[]
+    name: String;
+    slug: String;
+    colors: PaletteColor[];
 }
 
 export interface PaletteState {
-    palettes: Palette[]
+    palettes: Palette[];
 }
 
 const PALETTE_COLOR_OF_THE_YEAR: Palette = {
@@ -36,7 +36,7 @@ const PALETTE_COLOR_OF_THE_YEAR: Palette = {
         { name: 'True Red', hex: '#BF1932' },
         { name: 'Fuchsia Rose', hex: '#C74375' },
     ],
-}
+};
 const PALETTE_FLAT_UI: Palette = {
     name: 'Flat UI',
     slug: 'flat-ui',
@@ -62,7 +62,7 @@ const PALETTE_FLAT_UI: Palette = {
         { name: 'concrete', hex: '#95a5a6' },
         { name: 'asbestos', hex: '#7f8c8d' },
     ],
-}
+};
 const PALETTE_MATERIAL: Palette = {
     name: 'Material',
     slug: 'material',
@@ -88,7 +88,7 @@ const PALETTE_MATERIAL: Palette = {
         { name: 'Black', hex: '#000000' },
         { name: 'White', hex: '#FFFFFF' },
     ],
-}
+};
 const PALETTE_METRO: Palette = {
     name: 'Metro UI',
     slug: 'metro',
@@ -112,7 +112,7 @@ const PALETTE_METRO: Palette = {
         { name: 'Dark Red', hex: '#b91d47' },
         { name: 'White', hex: '#FFFFFF' },
     ],
-}
+};
 const PALETTE_SLACK: Palette = {
     name: 'Slack',
     slug: 'slack',
@@ -123,7 +123,7 @@ const PALETTE_SLACK: Palette = {
         { name: 'Rose', hex: '#E01765' },
         { name: 'Dark Purple', hex: '#443642' },
     ],
-}
+};
 
 export const DEFAULT_PALETTE_STATE: PaletteState = {
     palettes: [
@@ -133,4 +133,4 @@ export const DEFAULT_PALETTE_STATE: PaletteState = {
         PALETTE_METRO,
         PALETTE_SLACK,
     ],
-}
+};

@@ -1,5 +1,6 @@
-import { Component } from '@angular/core'
-import { RouterOutlet } from '@angular/router'
+import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import { TabMenuModule } from 'primeng/tabmenu';
 
 @Component({
     selector: 'app-root',
@@ -9,5 +10,5 @@ import { RouterOutlet } from '@angular/router'
     styleUrl: './app.component.less',
 })
 export class AppComponent {
-    title = 'design-tools'
+    title = 'Design Toolbox';
 }

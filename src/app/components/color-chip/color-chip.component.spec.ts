@@ -1,22 +1,22 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing'
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ColorChipComponent } from './color-chip.component'
+import { ColorChipComponent } from './color-chip.component';
 
 describe('ColorChipComponent', () => {
-    let component: ColorChipComponent
-    let fixture: ComponentFixture<ColorChipComponent>
+    let component: ColorChipComponent;
+    let fixture: ComponentFixture<ColorChipComponent>;
 
     beforeEach(async () => {
         await TestBed.configureTestingModule({
             imports: [ColorChipComponent],
-        }).compileComponents()
+        }).compileComponents();
 
-        fixture = TestBed.createComponent(ColorChipComponent)
-        component = fixture.componentInstance
-        fixture.detectChanges()
-    })
+        fixture = TestBed.createComponent(ColorChipComponent);
+        component = fixture.componentInstance;
+        fixture.detectChanges();
+    });
 
     it('should create', () => {
-        expect(component).toBeTruthy()
-    })
-})
+        expect(component).toBeTruthy();
+    });
+});
